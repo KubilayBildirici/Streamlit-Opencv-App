@@ -4,6 +4,7 @@ import base64
 import numpy as np
 import tempfile
 
+
 from help import Bodydetect
 from help import Handmesh
 from help import Facedetect
@@ -14,6 +15,9 @@ from imageprocess import bluring
 from imageprocess import median_blur
 from imageprocess import bilateral
 from imageprocess import filter2D
+from imageprocess import frontalface
+from imageprocess import detect_eye
+
 
 
 # Streamlit UI
@@ -70,6 +74,15 @@ if uploaded_image is not None:
     if st.sidebar.button("apply 2D filter to image"):
         filter = filter2D(img)
         st.image(filter,use_column_width=True)
+
+    if st.sidebar.button("apply frontalface detect"):
+        faces = frontalface(img)
+        st.image(faces,use_column_width=True)
+
+    if st.sidebar.button("apply eye detect"):
+        eyes = detect_eye(img)
+        st.image(eyes,use_column_width=True)
+
 
 
 
