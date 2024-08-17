@@ -28,6 +28,6 @@ You should write the following line of code in the terminal
 ```streamlit
 streamlit run main_run.py
 ```
-![Alt Text](file:///C:/Users/kubilay/Desktop/%C4%B0simsiz%20video%20%E2%80%90%20Clipchamp%20ile%20yap%C4%B1ld%C4%B1.gif)
+![Alt Text](https://github.com/KubilayBildirici/Streamlit-Opencv-App/blob/main/%C4%B0simsiz%20video%20%E2%80%90%20Clipchamp%20ile%20yap%C4%B1ld%C4%B1.gif?raw=true)
 
 
