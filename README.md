@@ -6,7 +6,7 @@ Hello Everyone 👋
 Welcome to my opencv web App project that I created via Streamlit. 
 It can be deployed to [Streamlit](https://streamlit.io/cloud), [OpenCV](https://opencv.org/)
 
-- Web app: <>
+- 🚀 LIVE Web app 🚀: <https://app-opencv-app-pnvsupccl9ttlugxqq6epr.streamlit.app/>
 - Github code: <https://github.com/KubilayBildirici/Streamlit-Opencv-App.git>
 ## Opencv installation
 
