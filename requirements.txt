@@ -2,4 +2,4 @@ matplotlib
 mediapipe
 opencv-python-headless
 pandas
-pillow pac
+pillow 
